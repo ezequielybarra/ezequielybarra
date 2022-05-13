@@ -1,4 +1,4 @@
-class persona {
+export class persona {
     private  nacimiento: number;
     private nombre: string;
     
@@ -30,8 +30,5 @@ class persona {
     }
 };
 
-let fede = new persona (2001,"Angie apellido ");
-console.log (fede.cualestunombre());
-console.log (fede.cualestugeneracion());
-console.log (fede.cualestuedad());
+
 
